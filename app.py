@@ -82,10 +82,9 @@ def check_liveness():
     faceCount2 = faceDetection(image_np2, image_np2.shape[1], image_np2.shape[0], faceBoxes2, maxFaceCount)
 
     if faceCount1 == 1 and faceCount2 == 1:
-        templateExtraction(image_np1, image_np1.shape[1], image_np1.shape[0], faceBoxes1)
-        templateExtraction(image_np2, image_np2.shape[1], image_np2.shape[0], faceBoxes2)
+        templateExtraction(image_np1, image_np1.shape[1], image_np1.shape[0], faceBoxes1[0])
+        templateExtraction(image_np2, image_np2.shape[1], image_np2.shape[0], faceBoxes2[0])
         similarity = similarityCalculation(faceBoxes1[0].templates, faceBoxes2[0].templates)
-        print("similarity", similarity)
         if similarity > verifyThreshold:
             result = "Same person"
         else:
@@ -168,10 +167,9 @@ def check_liveness_base64():
     faceCount2 = faceDetection(image_np2, image_np2.shape[1], image_np2.shape[0], faceBoxes2, maxFaceCount)
 
     if faceCount1 == 1 and faceCount2 == 1:
-        templateExtraction(image_np1, image_np1.shape[1], image_np1.shape[0], faceBoxes1)
-        templateExtraction(image_np2, image_np2.shape[1], image_np2.shape[0], faceBoxes2)
+        templateExtraction(image_np1, image_np1.shape[1], image_np1.shape[0], faceBoxes1[0])
+        templateExtraction(image_np2, image_np2.shape[1], image_np2.shape[0], faceBoxes2[0])
         similarity = similarityCalculation(faceBoxes1[0].templates, faceBoxes2[0].templates)
-        print("similarity", similarity)
         if similarity > verifyThreshold:
             result = "Same person"
         else:
