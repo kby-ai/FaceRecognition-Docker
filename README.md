@@ -108,7 +108,7 @@ This project uses KBY-AI's Face Recognition Server SDK, which requires a license
 
     Test with an image file: Send a POST request to http://{xx.xx.xx.xx}:8081/compare_face
     
-    Test with a base64-encoded image: Send a POST request to http://{xx.xx.xx.xx}:8080/compare_face_base64
+    Test with a base64-encoded image: Send a POST request to http://{xx.xx.xx.xx}:8081/compare_face_base64
     
     You can download the Postman collection to easily access and use these endpoints. [click here](https://github.com/kby-ai/FaceRecognition-Docker/tree/main/postman/kby-ai-face.postman_collection.json)
 
@@ -227,3 +227,6 @@ This project uses KBY-AI's Face Recognition Server SDK, which requires a license
 
     It returns the similarity value between the two templates, which can be used to determine the level of likeness between the two individuals.
 
+### 4. Thresholds
+  The default thresholds are as the following below:
+  https://github.com/kby-ai/FaceRecognition-Docker/blob/75800590cd9f2a3b778ec176bf465d1a731278fa/app.py#L18-L20
