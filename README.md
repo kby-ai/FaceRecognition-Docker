@@ -100,10 +100,9 @@ This project uses KBY-AI's Face Recognition Server SDK, which requires a license
     ```
   - Send us the machine code and replace the license.txt file you received. Then, run the Docker container again.
     
-    ![image](https://github.com/kby-ai/FaceLivenessDetection-Docker/assets/125717930/216f1306-a758-4e47-a8fe-159f3c84f53b)
+    ![image](https://github.com/kby-ai/FaceRecognition-Docker/assets/125717930/d7e84054-e4da-42c4-a88f-e74d50387d92)
     
-    ![image](https://github.com/kby-ai/FaceLivenessDetection-Docker/assets/125717930/2eff3496-abc2-4e70-bee1-4195375f42e6)
-
+    ![image](https://github.com/kby-ai/FaceRecognition-Docker/assets/125717930/7988b167-17dd-4501-8168-871954a1c8ec)
 
   - To test the API, you can use Postman. Here are the endpoints for testing:
 
@@ -199,3 +198,32 @@ This project uses KBY-AI's Face Recognition Server SDK, which requires a license
     * The fifth parameter: the count allocated for the maximum 'FaceBox' objects.
 
     The function returns the count of the detected face.
+
+  - Create Template
+
+    The SDK provides a function that enables the generation of templates from RGB data. These templates can be used for face verification between two faces.
+
+    The function can be used as follows:
+
+    ```    
+    templateExtraction(image_np1, image_np1.shape[1], image_np1.shape[0], faceBoxes1[0])
+    ```
+
+    This function requires 4 parameters.
+    * The first parameter: the byte array of the RGB image buffer.
+    * The second parameter: the width of the image.
+    * The third parameter: the height of the image.
+    * The fourth parameter: the 'FaceBox' object obtained from the 'faceDetection' function.
+
+    If the template extraction is successful, the function will return 0. Otherwise, it will return -1.
+    
+  - Calculation similiarity
+
+    The 'similarityCalculation' function takes a byte array of two templates as a parameter. 
+
+    ```
+    similarity = similarityCalculation(faceBoxes1[0].templates, faceBoxes2[0].templates)
+    ```
+
+    It returns the similarity value between the two templates, which can be used to determine the level of likeness between the two individuals.
+
