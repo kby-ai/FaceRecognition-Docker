@@ -114,6 +114,24 @@ This project uses KBY-AI's Face Recognition Server SDK, which requires a license
     
     You can download the Postman collection to easily access and use these endpoints. [click here](https://github.com/kby-ai/FaceRecognition-Docker/tree/main/postman/kby-ai-face.postman_collection.json)
 
+### 3. Execute the Gradio demo
+  - Setup Gradio
+    Ensure that you have the necessary dependencies installed. 
+    
+    Gradio requires Python 3.6 or above. 
+    
+    You can install Gradio using pip by running the following command:
+    ```
+    pip install gradio
+    ```
+  - Run the demo
+    Run it using the following command:
+    ```
+    cd gradio
+    python demo.py
+    ```
+  - You can test within the following URL:    
+    http://127.0.0.1:9000
 
 ## About SDK
 
