@@ -2,9 +2,13 @@
   <img src="https://user-images.githubusercontent.com/125717930/225975240-24b9a8ad-8cc6-4d5f-9a91-1435951b0bd7.png" width="120" alt="Nest Logo" />
 </p>
 
-👏  We have published the Face Livness Detection SDK for the server.
+👏  We have published the Face Livness Detection, Face Recognition SDK and ID Card Recognition SDK for the server.
 
   - [FaceLivenessDetection-Docker](https://github.com/kby-ai/FaceLivenessDetection-Docker)
+
+  - [FaceRecognition-Docker](https://github.com/kby-ai/FaceRecognition-Docker)
+
+  - [IDCardRecognition-Docker](https://github.com/kby-ai/IDCardRecognition-Docker)
 
 # FaceRecognition-Docker
 
@@ -27,11 +31,11 @@ It includes features that allow for testing face recognition between two images 
   | Eye Closure Detection        | Eye Closure Detection       |
   | Mouth Opening Check        | Mouth Opening Check        |
 
-> Reference
+> For other solutions, please explore the following:
 > - [Face Liveness Detection - Android(Basic SDK)](https://github.com/kby-ai/FaceLivenessDetection-Android)
 > - [Face Liveness Detection - iOS(Basic SDK)](https://github.com/kby-ai/FaceLivenessDetection-iOS)
-> - [Face Recognition - Android(Stdndard SDK)](https://github.com/kby-ai/FaceRecognition-Android)
-> - [Face Recognition - iOS(Stdndard SDK)](https://github.com/kby-ai/FaceRecognition-iOS)
+> - [Face Recognition - Android(Standard SDK)](https://github.com/kby-ai/FaceRecognition-Android)
+> - [Face Recognition - iOS(Standard SDK)](https://github.com/kby-ai/FaceRecognition-iOS)
 > - [Face Attribute - Android(Premium SDK)](https://github.com/kby-ai/FaceAttribute-Android)
 > - [Face Attribute - iOS(Premium SDK)](https://github.com/kby-ai/FaceAttribute-iOS)
 
