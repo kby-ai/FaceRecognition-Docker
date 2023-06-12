@@ -47,7 +47,7 @@ It includes features that allow for testing face recognition between two images 
 ## Try the API
 ### Online Demo
   You can test the SDK using images from the following URL:
-  https://web.kby-ai.com/
+  https://web.kby-ai.com
   
   ![image](https://github.com/kby-ai/FaceRecognition-Docker/assets/125717930/a7aa607c-8c40-4ef0-9592-7332c97457ca)
   
