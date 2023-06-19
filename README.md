@@ -91,7 +91,7 @@ This project uses KBY-AI's Face Recognition Server SDK, which requires a license
 ### 2. Setup and Test
   - Clone the project:
     ```
-    https://github.com/kby-ai/FaceRecognition-Docker.git
+    git clone https://github.com/kby-ai/FaceRecognition-Docker.git
     ```
   - Download the model from Google Drive: [click here](https://drive.google.com/file/d/19vA7ZOlo19BcW8v4iCoCGahUEbgKCo48/view?usp=sharing)
     ```
