@@ -49,6 +49,8 @@ It includes features that allow for testing face recognition between two images 
 >
 > [Face Recognition - Flutter(Standard SDK)](https://github.com/kby-ai/FaceRecognition-Flutter)
 >
+> [Face Recognition - React-Native(Standard SDK)](https://github.com/kby-ai/FaceRecognition-React-Native)
+>
 > [Face Attribute - Android(Premium SDK)](https://github.com/kby-ai/FaceAttribute-Android)
 >
 > [Face Attribute - iOS(Premium SDK)](https://github.com/kby-ai/FaceAttribute-iOS)
