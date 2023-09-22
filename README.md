@@ -120,7 +120,9 @@ This project uses KBY-AI's Face Recognition Server SDK, which requires a license
     ```
     sudo docker run -v ./license.txt:/home/openvino/kby-ai-face/license.txt -p 8081:8080 kby-ai-face
     ```
-  - Send us the machine code and replace the license.txt file you received. Then, run the Docker container again.
+  - Send us the machine code and then we will give you a license key.
+  
+    After that, update the license.txt file by overwriting the license key that you received. Then, run the Docker container again.
     
     ![image](https://github.com/kby-ai/FaceRecognition-Docker/assets/125717930/d7e84054-e4da-42c4-a88f-e74d50387d92)
     
