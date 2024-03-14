@@ -15,32 +15,33 @@ sudo docker run -e LICENSE="xxxxx" -p 8081:8080 -p 9001:9000 kbyai/face-recognit
 
 # FaceRecognition-Docker
 ## Overview
-This project demonstrates an advanced face recognition technology implemented via a Dockerized Flask API.<br/>
+This repository demonstrates an advanced face recognition technology by implementing face comparison based on face feature extraction and face matching algorithm, which was implemented via a Dockerized Flask API.<br/>
 It includes features that allow for testing face recognition between two images using both image files and base64-encoded images.
 
-> The demo is integrated with KBY-AI's Face Recognition Server SDK.<br/>
+> In this repo, we integrated KBY-AI's face recognition solution into Linux Server SDK by docker container.<br/>
 > We can customize the SDK to align with your specific requirements.
 
-  | Face Liveness Detection      | Face Recognition |
+### ◾FaceSDK(Server) Details
+  | Face Liveness Detection      | 🔽 Face Recognition |
   |------------------|------------------|
-  | Face Detection        | Face Detection    |
-  | Face Liveness Detection        | Face Recognition    |
-  | Pose Estimation        | Pose Estimation    |
-  | 68 points Face Landmark Detection        | 68 points Face Landmark Detection    |
-  | Face Quality Calculation        | Face Occlusion Detection        |
-  | Face Occlusion Detection        | Face Occlusion Detection        |
-  | Eye Closure Detection        | Eye Closure Detection       |
-  | Mouth Opening Check        | Mouth Opening Check        |
+  | Face Detection        | <b>Face Detection</b>    |
+  | Face Liveness Detection        | <b>Face Recognition(Face Matching or Face Comparison)</b>    |
+  | Pose Estimation        | <b>Pose Estimation    |
+  | 68 points Face Landmark Detection        | <b>68 points Face Landmark Detection</b>    |
+  | Face Quality Calculation        | <b>Face Occlusion Detection</b>        |
+  | Face Occlusion Detection        | <b>Face Occlusion Detection</b>        |
+  | Eye Closure Detection        | <b>Eye Closure Detection</b>       |
+  | Mouth Opening Check        | <b>Mouth Opening Check</b>        |
 
-> For other solutions, please explore the following:<br/>
-> [Face Liveness Detection - Android(Basic SDK)](https://github.com/kby-ai/FaceLivenessDetection-Android)<br/>
-> [Face Liveness Detection - iOS(Basic SDK)](https://github.com/kby-ai/FaceLivenessDetection-iOS)<br/>
-> [Face Recognition - Android(Standard SDK)](https://github.com/kby-ai/FaceRecognition-Android)<br/>
-> [Face Recognition - iOS(Standard SDK)](https://github.com/kby-ai/FaceRecognition-iOS)<br/>
-> [Face Recognition - Flutter(Standard SDK)](https://github.com/kby-ai/FaceRecognition-Flutter)<br/>
-> [Face Recognition - React-Native(Standard SDK)](https://github.com/kby-ai/FaceRecognition-React-Native)<br/>
-> [Face Attribute - Android(Premium SDK)](https://github.com/kby-ai/FaceAttribute-Android)<br/>
-> [Face Attribute - iOS(Premium SDK)](https://github.com/kby-ai/FaceAttribute-iOS)
+### ◾FaceSDK(Server) Product List
+  | No.      | Repository | SDK Details |
+  |------------------|------------------|------------------|
+  | 1        | [Face Liveness Detection - Linux](https://github.com/kby-ai/FaceLivenessDetection-Docker)    | <b>Face Livness Detection</b> |
+  | 2        | [Face Liveness Detection - Windows](https://github.com/kby-ai/FaceLivenessDetection-Windows)    | Face Livness Detection |
+  | ➡️        | <b>[Face Recognition - Linux](https://github.com/kby-ai/FaceRecognition-Docker)</b>    | Face Recognition |
+  | 4        | [Face Recognition - Windows](https://github.com/kby-ai/FaceRecognition-Windows)    | Face Recognition |
+
+> To get Face SDK(mobile), please visit products [here](https://github.com/kby-ai/Product):<br/>
 
 ## Try the API
 ### Online Demo
