@@ -36,9 +36,9 @@ It includes features that allow for testing face recognition between two images 
 ### ◾FaceSDK(Server) Product List
   | No.      | Repository | SDK Details |
   |------------------|------------------|------------------|
-  | 1        | [Face Liveness Detection - Linux](https://github.com/kby-ai/FaceLivenessDetection-Docker)    | <b>Face Livness Detection</b> |
+  | 1        | [Face Liveness Detection - Linux](https://github.com/kby-ai/FaceLivenessDetection-Docker)    | Face Livness Detection |
   | 2        | [Face Liveness Detection - Windows](https://github.com/kby-ai/FaceLivenessDetection-Windows)    | Face Livness Detection |
-  | ➡️        | <b>[Face Recognition - Linux](https://github.com/kby-ai/FaceRecognition-Docker)</b>    | Face Recognition |
+  | ➡️        | <b>[Face Recognition - Linux](https://github.com/kby-ai/FaceRecognition-Docker)</b>    | <b>Face Recognition</b> |
   | 4        | [Face Recognition - Windows](https://github.com/kby-ai/FaceRecognition-Windows)    | Face Recognition |
 
 > To get Face SDK(mobile), please visit products [here](https://github.com/kby-ai/Product):<br/>
