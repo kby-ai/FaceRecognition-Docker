@@ -258,4 +258,3 @@ This project uses `KBY-AI`'s `Face Recognition Server SDK`, which requires a lic
   The default thresholds are as the following below:
   https://github.com/kby-ai/FaceRecognition-Docker/blob/75800590cd9f2a3b778ec176bf465d1a731278fa/app.py#L18-L20
 
-[![Visitors](https://api.visitorbadge.io/api/combined?path=https%3A%2F%2Fgithub.com%2Fkby-ai%2FFaceRecognition-Docker&countColor=%23263759)](https://visitorbadge.io/status?path=https%3A%2F%2Fgithub.com%2Fkby-ai%2FFaceRecognition-Docker)
