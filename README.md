@@ -20,7 +20,7 @@ This repository demonstrates an advanced face recognition technology by implemen
 It includes features that allow for testing face recognition between two images using both image files and `base64-encoded` images.
 
 > In this repo, we integrated `KBY-AI`'s face recognition solution into `Linux Server SDK` by docker container.<br/>
-> We can customize the SDK to align with your specific requirements.
+> We can customize the SDK to align with customer's specific requirements.
 
 ### ◾FaceSDK(Server) Details
   | Face Liveness Detection      | 🔽 Face Recognition |
