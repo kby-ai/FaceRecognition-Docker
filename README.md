@@ -95,7 +95,7 @@ This project uses `KBY-AI`'s `Face Recognition Server SDK`, which requires a lic
     ```bash
     git clone https://github.com/kby-ai/FaceRecognition-Docker.git
     ```
-  - Download the model from Google Drive: [click here](https://drive.google.com/file/d/19vA7ZOlo19BcW8v4iCoCGahUEbgKCo48/view?usp=sharing)
+  - Download the model from Google Drive: [click here](https://drive.google.com/file/d/1ExXnc-QMVCFtGoP3xOkjoQFq56hO0PV0/view?usp=sharing)
     ```bash
     cd FaceRecognition-Docker
     
